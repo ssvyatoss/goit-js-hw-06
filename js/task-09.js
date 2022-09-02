@@ -3,7 +3,7 @@ function getRandomHexColor() {
 }
 
 const swapBtnEl = document.querySelector('button');
-const backgroundColor = document.querySelector(".color");
+const backgroundColor = document.querySelector("body");
 
 const onSwapBtnElClick = () => {
   backgroundColor.style.backgroundColor = getRandomHexColor();
